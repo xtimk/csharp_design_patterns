@@ -1,0 +1,9 @@
+language: csharp
+dist: trusty
+mono: none
+dotnet: 6.0.1
+install:
+- dotnet restore AbstractFactory/AbstractFactory.Tests/AbstractFactory.Tests.csproj
+script:
+- dotnet build AbstractFactory/AbstractFactory.Tests/AbstractFactory.Tests.csproj
+- dotnet test AbstractFactory/AbstractFactory.Tests/AbstractFactory.Tests.csproj
