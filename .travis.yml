@@ -1,5 +1,5 @@
 language: csharp
-dist: trusty
+dist: xenial
 mono: none
 dotnet: 6.0.1
 install:
